@@ -17,3 +17,15 @@ hadoop.3.2.3/hdfs/namenode -format
 start-all.sh
 hadoop fs -mkdir /user
 stop-all.sh
+
+
+https://codewitharjun.medium.com/word-count-example-using-hadoop-and-java-8ef3d665e331
+1. Run Hadoop
+2. Create MAVEN Project
+3. add dependencies 
+4. create 3 classes (Mapper, Runner, Reducer)
+5. creating jar file 
+
+nano input.txt
+hadoop fs -mkdir /input
+hadoop fs -put input.txt /input
